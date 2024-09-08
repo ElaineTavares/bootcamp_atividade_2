@@ -5,7 +5,24 @@
     width: 100%;
     justify-content: center;
     /* border: 2px solid red; */
-    padding-block: 10%;  
+    padding-block: 5%;  
+}
+
+.container_borboleta{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 5px;
+}
+
+.container_borboleta h2{
+    color: #ffffff;
+    text-shadow: 5px 5px 8px black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container_borboleta img{
+    width: 50px;
 }
 
 

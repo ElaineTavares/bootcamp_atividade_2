@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Inicio.css'
 import emailJs from "@emailjs/browser"
+import logoBorboleta from '/logo_borboleta.png'
 
 export default function Inicio() {
 
@@ -40,10 +41,13 @@ export default function Inicio() {
     }
     
 
- 
-
   return (
     <div className='formulario_container'>
+        <div className="container_borboleta">
+            <h2>Elaine Tavares</h2>
+            <img src={logoBorboleta} alt="borboleta" />
+        </div>
+
         <form onSubmit={dadosCapturados}>  
         
             <h1>Envie sua mensagem</h1>
